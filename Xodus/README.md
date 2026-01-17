@@ -75,7 +75,7 @@ explicit user-controlled pairing.
 
 ### Hardware-Backed Trust Anchor
 
-![Xodus USB dongle connected to host system](./screenshots/01-hardware-usb-dongle.png)
+![Xodus USB dongle connected to host system](./screenshots/01-hardware-usb-dongle.jpg)
 
 *Custom Xodus USB dongle acting as a portable trust anchor.  
 Sensitive trust relationships and pairing credentials are anchored to the
