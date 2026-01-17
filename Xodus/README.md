@@ -75,7 +75,7 @@ explicit user-controlled pairing.
 
 ### Hardware-Backed Trust Anchor
 
-![Xodus USB dongle connected to host system](./assets/screenshots/01-hardware-usb-dongle.png)
+![Xodus USB dongle connected to host system](./screenshots/01-hardware-usb-dongle.png)
 
 *Custom Xodus USB dongle acting as a portable trust anchor.  
 Sensitive trust relationships and pairing credentials are anchored to the
@@ -85,7 +85,7 @@ hardware device rather than relying solely on the host operating system.*
 
 ### Secure Device Pairing (QR-Based)
 
-![QR-based pairing workflow](./assets/screenshots/02-qr-pairing.png)
+![QR-based pairing workflow](./screenshots/02-qr-pairing.png)
 
 *QR-based pairing workflow used to establish trusted device relationships.
 This approach avoids manual key handling, requires physical proximity, and
@@ -95,7 +95,7 @@ ensures that no data exchange occurs before explicit user approval.*
 
 ### Explicit, User-Initiated File Sharing
 
-![Drag-and-drop file sharing interface](./assets/screenshots/03-file-sharing-ui.png)
+![Drag-and-drop file sharing interface](./screenshots/03-file-sharing-ui.png)
 
 *User-initiated file sharing interface.  
 Files are transferred only after explicit user action and only between
@@ -105,7 +105,7 @@ previously paired, trusted devices. There is no background or automatic sharing.
 
 ### Host Operating System Security Controls (Advanced)
 
-![Windows Firewall permission prompt](./assets/screenshots-advanced/firewall-permission.png)
+![Windows Firewall permission prompt](./screenshots-advanced/firewall-permission.png)
 
 *Xodus respects host operating system security controls.  
 Network access requires explicit user approval through the OS firewall, and
