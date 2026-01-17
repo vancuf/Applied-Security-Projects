@@ -126,6 +126,67 @@ understandable security workflows** rather than convenience-driven automation.
 
 ---
 
+## Mobile Application — Secure, User-Controlled Workflows
+
+The Xodus mobile application is designed to complement the desktop experience
+while maintaining **explicit user intent**, **paired-device trust**, and
+**privacy-first behavior**.
+
+The following screenshots demonstrate core mobile workflows.
+
+---
+
+### Explicit File Send to Paired Device
+
+![Xodus mobile app — send files](./screenshots/04-mobile-send.png)
+
+*The user explicitly selects files to send to a paired device.
+No files are transferred automatically, and no background sharing occurs.*
+
+---
+
+### Controlled File Receive & Download
+
+![Xodus mobile app — receive files](./screenshots/05-mobile-receive.png)
+
+*Files sent from a trusted, paired device are listed for user-controlled
+download. The user chooses when and what to save locally.*
+
+---
+
+### Encrypted Local Media Streaming
+
+![Xodus mobile app — stream media](./screenshots/06-mobile-stream.png)
+
+*Audio and video content is streamed from a paired Xodus device using
+encrypted local connections. Media is streamed for playback and is not
+permanently stored on the mobile device by default.*
+
+---
+
+### Secure Mobile-to-Mobile Pairing via QR Code
+
+![Xodus mobile app — QR pairing](./screenshots/07-mobile-qr-pairing.png)
+
+*QR-based pairing enables secure device-to-device trust establishment without
+manual key exchange. Pairing requires physical proximity and explicit user
+action, reducing the risk of unauthorized access.*
+
+---
+
+## Mobile Security Considerations
+
+- All transfers require explicit user action
+- Only paired devices can send or receive content
+- Streaming sessions terminate when the connection ends
+- The mobile app does not passively accept incoming data
+- Trust relationships are visible and user-managed
+
+These workflows reinforce Xodus’ design goal of **secure, understandable,
+and privacy-respecting data exchange across devices**.
+
+---
+
 ## What Xodus Is *Not*
 
 - ❌ Not a network scanning or surveillance tool  
